@@ -8,8 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-     <Item name="Abimanyu" />
-
+     <Item name="Cat" />
+     <Item name="Dog" />
+     <Item name="Cow" />
       </header>
     </div>
   );
