@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Abimanyu007/random-character/static/css/main.ac37079b.chunk.css",
+    "main.js": "/Abimanyu007/random-character/static/js/main.32e30d2a.chunk.js",
+    "main.js.map": "/Abimanyu007/random-character/static/js/main.32e30d2a.chunk.js.map",
+    "runtime-main.js": "/Abimanyu007/random-character/static/js/runtime-main.eceba2ff.js",
+    "runtime-main.js.map": "/Abimanyu007/random-character/static/js/runtime-main.eceba2ff.js.map",
+    "static/js/2.22413f4e.chunk.js": "/Abimanyu007/random-character/static/js/2.22413f4e.chunk.js",
+    "static/js/2.22413f4e.chunk.js.map": "/Abimanyu007/random-character/static/js/2.22413f4e.chunk.js.map",
+    "static/js/3.2d7fbc00.chunk.js": "/Abimanyu007/random-character/static/js/3.2d7fbc00.chunk.js",
+    "static/js/3.2d7fbc00.chunk.js.map": "/Abimanyu007/random-character/static/js/3.2d7fbc00.chunk.js.map",
+    "index.html": "/Abimanyu007/random-character/index.html",
+    "static/css/main.ac37079b.chunk.css.map": "/Abimanyu007/random-character/static/css/main.ac37079b.chunk.css.map",
+    "static/js/2.22413f4e.chunk.js.LICENSE.txt": "/Abimanyu007/random-character/static/js/2.22413f4e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eceba2ff.js",
+    "static/js/2.22413f4e.chunk.js",
+    "static/css/main.ac37079b.chunk.css",
+    "static/js/main.32e30d2a.chunk.js"
+  ]
+}
