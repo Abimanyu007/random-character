@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.btn{
+  background-color: white;
+  text-align: center;
+  font-size :25px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 4spx solid black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  color: black;
+}
