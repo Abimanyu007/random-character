@@ -19,17 +19,18 @@ class StarWars extends React.Component{
   }
 
   RandomCharacterGenerator(){
-  
+    const rand = Math.floor(Math.random() * 82) + 1;
+  const url = `https://swapi.dev/api/people/${rand}`
 
-    this.setState({
-      Name: 'Luke',
-      Height: 174,
-      Homeworld:'Tatooine',
-      Movies: ["item 1", "item 2", "item 3"],
-      loadedcharacter:true
-    })
-  }
-
+  fetch(url).then((response) =>response.json()).then(data => {this.setState({
+    Name: data.name,
+    Height: data.height,
+    Homeworld:data.homeworld,
+    Movies: data.films,
+    loadedcharacter:true
+  })
+  }) 
+}
 render() {
   return (
     <div>
@@ -38,9 +39,9 @@ render() {
       <div>
       <h1>{this.state.Name}</h1>
       <p>{this.state.Height}</p>
-      <p>{this.state.Homeworld}</p>
+      <p><a href={this.state.Homeworld}>Home World</a></p>
       <ul>
-        <li>{this.state.Movies}</li>
+          {this.state.Movies.map(movie => {return <li> {movie}</li>})}
       </ul>
       </div>
 
